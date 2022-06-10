@@ -1,0 +1,624 @@
+/*<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e7008a" fill-opacity="1" d="M0,96L40,96C80,96,160,96,240,133.3C320,171,400,245,480,234.7C560,224,640,128,720,101.3C800,75,880,117,960,144C1040,171,1120,181,1200,176C1280,171,1360,149,1400,138.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>*/
+
+header img{
+    width: 5em;
+    padding: 1em;
+}
+
+main .landing {
+    padding: 5em;
+    background-image: url("wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    /*font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive;*/
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile_photo {
+
+}
+
+main .content {
+    font-size: 2em;
+    margin-top: 1.5em;
+
+
+}
+
+.content a {
+    background-color: rgb(255, 6, 89);
+    text-decoration: none;
+    border-radius: 40px;
+    color: white;
+    padding: .6em;
+    margin-left: 5em;
+
+}
+
+.content a:hover {
+    background-color: white;
+    color:rgb(255, 6, 89) ;
+    border: solid;
+    border-color: rgb(255, 6, 89);
+}
+
+main .aboutMe {
+    background-color: rgb(255, 226, 236);
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 3em;
+    border-radius: 40px;
+
+}
+
+.aboutMe .imageabtme img {
+    width: 10em;
+    margin-top: 4em;
+    margin-left: 6em;
+    
+
+}
+
+.textabtme {
+    margin: 3em;
+    margin-left: 6em;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+
+}
+
+main .Journey {
+    background-color: rgb(255, 226, 236);
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 7em;
+    margin-bottom: 2em;
+    padding: 3em;
+    border-radius: 40px;
+
+}
+
+.Journey .imagejourney img {
+    width: 20em;
+    margin-top: 13em;
+    margin-left: 6em;
+    
+
+}
+
+.textjourney {
+    margin: 3em;
+    margin-left: 6em;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+
+}
+
+.textjourney ul li a {
+    text-decoration-color: rgb(219, 82, 178);
+    color:rgb(219, 82, 178);
+
+    
+}
+
+main .why {
+    background-color: rgb(255, 226, 236);
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 7em;
+    margin-bottom: 2em;
+    padding: 3em;
+    border-radius: 40px;
+}
+
+.why .imagewhy img {
+    width: 20em;
+    margin-top: 6em;
+    margin-left: 6em;
+    
+
+}
+
+.textwhy {
+    margin: 3em;
+    margin-left: 6em;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+
+}
+
+main .whyschip {
+    background-color: rgb(255, 226, 236);
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 7em;
+    margin-bottom: 2em;
+    padding: 3em;
+    border-radius: 40px;
+}
+
+.whyschip .imagewhyschip img {
+    width: 20em;
+    margin-top: 0;
+    margin-left: 6em;
+    
+
+}
+
+.textwhyschip {
+    margin: 3em;
+    margin-left: 6em;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+
+}
+
+
+main .plans {
+    background-color: rgb(255, 226, 236);
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 7em;
+    margin-bottom: 2em;
+    padding: 3em;
+    border-radius: 40px;
+}
+
+.plans .imageplans img {
+    width: 20em;
+    margin-top: 1.5em;
+    margin-left: 6em;
+    
+
+}
+
+.textplans {
+    margin: 3em;
+    margin-left: 6em;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+
+}
+
+.appreciation {
+    background-color: rgb(255, 226, 236);
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 7em;
+    margin-bottom: 2em;
+    padding: 3em;
+    border-radius: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.appreciation p {
+    font-size: 1.5em;
+}
+
+.certificates {
+    display: flex;
+    justify-content:space-around;
+}
+
+.scamentoring a img, .scasummer a img {
+    width: 30em;
+}
+
+.scamentoring a img:hover{
+    width: 33em;
+}
+
+.scasummer a img:hover {
+    width: 33em;
+}
+
+.logo img {
+    width: 8em;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    padding: 3em;
+    background-color: rgb(219, 82, 178);
+    
+}
+
+footer a img  {
+    width: 3em;
+
+}
+
+footer a:hover {
+    background-color: pink;
+}
+
+@media only screen and (max-width: 410px) {
+    header img{
+        width: 2em;
+        padding: 0.8em;
+    }
+
+    .profile_photo img {
+        width: 7em;
+    }
+
+    main .content {
+        font-size: 0.7em;
+        margin-top: 0;
+    }
+
+    .content a {
+        padding: .4em;
+        margin-left: 1.5em;
+    }
+
+    main .landing {
+        padding: 2em;
+    }
+
+    main .aboutMe, main .Journey, main .why, main .whyschip, main .plans {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0.5em;
+        margin-bottom: 3em;
+        padding: 0.5em;
+    }
+
+    .aboutMe .imageabtme img, .Journey .imagejourney img, .why .imagewhy img, .plans .imageplans img {
+        width: 5em;
+        margin: 0.5em auto;
+    }
+
+    .whyschip .imagewhyschip img {
+        display: none;
+    }
+
+    .textabtme, .textjourney, .textwhy, .textwhyschip, .textplans {
+        margin: 0.3em;
+        padding: 1em; 
+        font-size: 1em;
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+    
+    }
+
+
+    
+    .appreciation {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+   }
+
+.appreciation p {
+    font-size: 1em;
+}
+
+.certificates {
+    display: block;
+}
+
+.scamentoring a img, .scasummer a img {
+    width: 15em;
+}
+
+.scamentoring a img:hover{
+    width: 17em;
+}
+
+.scasummer a img:hover {
+    width: 17em;
+}
+
+.logo img {
+    display: none;
+}
+
+
+footer {
+    margin-top: 3em;
+    padding: 1em;    
+}
+
+footer a img  {
+    width: 1.5em;
+
+}
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 410px) {
+    header img{
+        width: 3em;
+        padding: 0.8em;
+    }
+
+    .profile_photo img {
+        width: 10em;
+    }
+
+    main .content {
+        font-size: 1em;
+        margin-top: 0;
+    }
+
+    .content a {
+        padding: .5em;
+        margin-left: 1.5em;
+    }
+
+    main .landing {
+        padding: 2em;
+    }
+
+    main .aboutMe, main .Journey, main .why, main .whyschip, main .plans {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0.5em;
+        margin-bottom: 5em;
+        padding: 0.5em;
+    }
+
+    .aboutMe .imageabtme img, .Journey .imagejourney img, .why .imagewhy img, .plans .imageplans img {
+        width: 5em;
+        margin: 0.5em auto;
+    }
+
+    .whyschip .imagewhyschip img {
+        display: none;
+    }
+
+    .textabtme, .textjourney, .textwhy, .textwhyschip, .textplans {
+        margin: 0.3em;
+        padding: 1em; 
+        font-size: 1em;
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+    
+    }
+
+
+    
+    .appreciation {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+   }
+
+.appreciation p {
+    font-size: 1em;
+}
+
+.certificates {
+    display: block;
+}
+
+.scamentoring a img, .scasummer a img {
+    width: 25em;
+}
+
+.scamentoring a img:hover{
+    width: 28em;
+}
+
+.scasummer a img:hover {
+    width: 28em;
+}
+
+.logo img {
+    display: none;
+}
+
+
+footer {
+    margin-top: 3em;
+    padding: 1em;    
+}
+
+footer a img  {
+    width: 1.5em;
+
+}
+
+}
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+    .profile_photo img {
+        width: 12em;
+        margin-top: 2em;
+    }
+
+    main .content {
+        font-size: 1.3em;
+        margin-top: 0;
+    }
+
+    .content a {
+        padding: .5em;
+        margin-left: 1.5em;
+    }
+
+    main .aboutMe, main .Journey, main .why, main .whyschip, main .plans {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0.5em;
+        margin-bottom: 7em;
+        padding: 0.5em;
+    }
+
+    .aboutMe .imageabtme img, .Journey .imagejourney img, .why .imagewhy img, .plans .imageplans img {
+        width: 5em;
+        margin: 0.5em auto;
+    }
+
+    .whyschip .imagewhyschip img {
+        display: none;
+    }
+
+    .textabtme, .textjourney, .textwhy, .textwhyschip, .textplans {
+        margin: 0.3em;
+        padding: 1em; 
+        font-size: 1em;
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+    
+    }
+    
+
+
+    
+    .appreciation {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        padding: 1em;
+       }
+    
+    .appreciation p {
+        font-size: 1em;
+    }
+    
+    .certificates {
+        display: block;
+    }
+    
+    .scamentoring a img, .scasummer a img {
+        width: 30em;
+    }
+
+    .scamentoring a img:hover{
+        width: 33em;
+    }
+    
+    .scasummer a img:hover {
+        width: 33em;
+    }
+    
+    .logo img {
+        display: none;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1400px) and (min-width:992px) {
+    main .aboutMe, main .Journey, main .why, main .whyschip, main .plans {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0.5em;
+        margin-bottom: 8em;
+        padding: 0.5em;
+    }
+
+    .aboutMe .imageabtme img, .Journey .imagejourney img, .why .imagewhy img, .plans .imageplans img {
+        width: 7em;
+        margin: 0.5em auto;
+    }
+
+    .Journey .imagejourney img, .why .imagewhy img, .plans .imageplans img {
+        width: 10em;
+        margin: 0.5em auto;
+    }
+
+    .whyschip .imagewhyschip img {
+        display: none;
+    }
+
+    .textabtme, .textjourney, .textwhy, .textwhyschip, .textplans {
+        margin: 0.3em;
+        padding: 1em; 
+        font-size: 2em;
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+    
+    }
+
+    .appreciation {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 8em;
+        margin-bottom: 1em;
+        padding: 1em;
+       }
+    
+    .appreciation p {
+        font-size: 2em;
+    }
+    
+    .certificates {
+        display: block;
+    }
+    
+    .scamentoring a img, .scasummer a img {
+        width: 35em;
+    }
+
+    .scamentoring a img:hover{
+        width: 37em;
+    }
+    
+    .scasummer a img:hover {
+        width: 37em;
+    }
+    
+    .logo img{
+        display: none;
+    }
+    
+    
+
+}
+
+/*@media only screen and (max-width: 600px) and (min-width: 400px)
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {...}
+
+ Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+ Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}*/
+
+
